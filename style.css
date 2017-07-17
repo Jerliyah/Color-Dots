@@ -1,0 +1,38 @@
+body {
+    background: url("images/train-life.gif");
+    background-size: 100% 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+
+    /* New divs will have this styling */
+    background: gray;
+    border: 7px solid black;
+}
+
+div#red {
+    background: #ff4d4d;
+    border: 7px dashed #cc0000;
+}
+
+div#blue {
+    background: #6699ff;
+    border: 7px dotted #3333cc;
+}
+
+div#green {
+    background: #c6ffb3;
+    border: 7px solid #00ff00; 
+}
+
