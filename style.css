@@ -15,24 +15,26 @@ div {
     height: 150px;
     width: 150px;
     border-radius: 100%;
-
-    /* New divs will have this styling */
-    background: gray;
-    border: 7px solid black;
+    border: 7px solid;
 }
 
-div#red {
-    background: #ff4d4d;
-    border: 7px dashed #cc0000;
-}
+div#fancy {
+    background: #99ccff;
+    border: 5px dashed white;
+    color: white;
+    font-family: 'Lemonada', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 35%;
+    left: 45%;
 
-div#blue {
-    background: #6699ff;
-    border: 7px dotted #3333cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-div#green {
-    background: #c6ffb3;
-    border: 7px solid #00ff00; 
+div#fancy:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    border: 5px dashed black;
 }
 
